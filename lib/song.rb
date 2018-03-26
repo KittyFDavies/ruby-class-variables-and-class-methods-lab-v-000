@@ -12,10 +12,6 @@ class Song
     genre
   end
 
-  def new
-
-  end
-
   def name
 
   end
