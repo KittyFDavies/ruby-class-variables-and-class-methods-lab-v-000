@@ -9,16 +9,40 @@ class Song
     @@song_count += 1
   end
 
-  def genre_count
-    @@genre_count += 1
+  def new(name, artist, genre)
+    
+  end
+
+  def name
+    
+  end
+
+  def artist
+    
+  end
+
+  def genre
+    
   end
 
   def self.count
     @@song_count
   end
 
+  def self.artists
+
+  end
+
+  def self.genres
+
+  end
+
   def self.genre_count
     @@genre_count
+  end
+
+  def self.artist_count
+
   end
   
 end
